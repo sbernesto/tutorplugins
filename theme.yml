@@ -1,0 +1,6 @@
+name: theme_default
+version: 0.1.0
+patches:
+ lms-env: |
+         "DEFAULT_SITE_THEME": "lilactheme"
+

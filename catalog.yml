@@ -1,0 +1,6 @@
+name: catalog_visibility
+version: 0.1.0
+patches:
+ lms-env: |
+         "COURSE_ABOUT_VISIBILITY_PERMISSION" : "see_about_page",
+         "COURSE_CATALOG_VISIBILITY_PERMISSION" : "see_in_catalog"

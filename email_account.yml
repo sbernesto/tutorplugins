@@ -1,0 +1,12 @@
+#Deshabilita la opción de activacion de cuenta via correo"
+#"SKIP_EMAIL_VALIDATION": true
+name: email_account
+version: 0.1.0
+patches:
+ lms-env: |
+         "EMAIL_HOST_PASSWORD": "",
+         "EMAIL_HOST_USER": "",
+         "EMAIL_HOST": "",
+         "EMAIL_PORT": 25,
+         "EMAIL_USE_TLS": false
+
