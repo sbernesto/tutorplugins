@@ -1,0 +1,6 @@
+name: search_discovery
+version: 0.1.0
+patches:
+  openedx-common-settings: |
+           FEATURES["ENABLE_COURSEWARE_SEARCH"] = False 
+

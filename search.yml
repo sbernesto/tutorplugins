@@ -1,0 +1,7 @@
+name: search
+version: 0.1.0
+patches:
+  openedx-common-settings: |
+           FEATURES["ENABLE_COURSE_DISCOVERY"] = False 
+           #           FEATURES["ENABLE_COURSEWARE_SEARCH"] = False 
+
