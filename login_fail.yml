@@ -1,0 +1,10 @@
+name: login_fail
+version: 0.1.0
+patches:
+ lms-env-features: |
+    ""ENABLE_MAX_FAILED_LOGIN_ATTEMPTS : false
+
+ openedx-lms-common-settings: |
+    # Tiempo de timeout
+    MAX_FAILED_LOGIN_ATTEMPTS_ALLOWED = 5
+    MAX_FAILED_LOGIN_ATTEMPTS_LOCKOUT_PERIOD_SECS = 15 * 60
