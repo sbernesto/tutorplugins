@@ -2,5 +2,5 @@ name: allow_automated_signups
 version: 0.1.0
 patches:
     lms-env-features: |
-            "ALLOW_AUTOMATED_SIGNUPS" : true
+            ALLOW_AUTOMATED_SIGNUPS : true
 

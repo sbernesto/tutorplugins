@@ -1,8 +1,8 @@
 name: login_fail
 version: 0.1.0
 patches:
- lms-env-features: |
-    ""ENABLE_MAX_FAILED_LOGIN_ATTEMPTS : false
+ #lms-env-features: |
+    #ENABLE_MAX_FAILED_LOGIN_ATTEMPTS : false
 
  openedx-lms-common-settings: |
     # Tiempo de timeout

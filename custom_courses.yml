@@ -2,7 +2,7 @@ name: custom_courses
 version: 0.1.0
 patches:
     lms-env-features: |
-            "CUSTOM_COURSES_EDX" : true
+            CUSTOM_COURSES_EDX : true
     cms-env-features: |
-            "CUSTOM_COURSES_EDX" : true
+            CUSTOM_COURSES_EDX : true
 

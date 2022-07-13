@@ -2,7 +2,7 @@ name: special_exams
 version: 0.1.0
 patches:
     lms-env-features: |
-            "ENABLE_SPECIAL_EXAMS" : true
+            ENABLE_SPECIAL_EXAMS : true
     cms-env-features: |
-            "ENABLE_SPECIAL_EXAMS" : true
+            ENABLE_SPECIAL_EXAMS : true
 

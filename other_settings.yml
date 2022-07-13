@@ -1,0 +1,5 @@
+name: other_settings
+version: 0.1.0
+patches:
+ cms-env-features: |
+         ENABLE_OTHER_COURSE_SETTINGS: true

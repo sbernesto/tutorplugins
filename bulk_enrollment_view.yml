@@ -2,5 +2,5 @@ name: bulk_enrollment_view
 version: 0.1.0
 patches:
     lms-env-features: |
-            "ENABLE_BULK_ENROLLMENT_VIEW" : true
+            ENABLE_BULK_ENROLLMENT_VIEW : true
 
