@@ -1,0 +1,5 @@
+name: cookie_consent
+version: 1.0.0
+patches:
+  common-env-features: |
+    ENABLE_COOKIE_CONSENT: true
