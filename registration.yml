@@ -1,0 +1,6 @@
+name: theme_default
+version: 0.1.0
+patches:
+ lms-env: |
+         SHOW_REGISTRATION_LINKS: false
+
