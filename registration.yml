@@ -1,4 +1,4 @@
-name: theme_default
+name: disable_registration
 version: 0.1.0
 patches:
  lms-env: |
