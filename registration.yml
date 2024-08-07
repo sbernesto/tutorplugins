@@ -1,6 +1,5 @@
 name: disable_registration
 version: 0.1.0
 patches:
- lms-env: |
-         SHOW_REGISTRATION_LINKS: false
-
+ openedx-common-settings: |
+         FEATURES["SHOW_REGISTRATION_LINKS"] = False

@@ -1,0 +1,5 @@
+name: disable_signup
+version: 0.1.0
+patches:
+ openedx-common-settings: |
+         FEATURES['ALLOW_PUBLIC_ACCOUNT_CREATION'] = False
