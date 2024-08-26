@@ -1,0 +1,5 @@
+name: course_list
+version: 0.1.0
+patches:
+ openedx-common-settings: |
+         FEATURES['COURSES_ARE_BROWSABLE'] = False
